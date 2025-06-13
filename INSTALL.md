@@ -23,7 +23,7 @@ Alternatively:
 
 NOTE: Tested on 13.10, 14.04, 15.04 and 16.04
 
-Install basic development tools for Qt projects, plus liblo for OSC support:
+Install basic development tools for Qt projects;
 
 ```
 sudo apt-get install -y \
@@ -33,7 +33,14 @@ sudo apt-get install -y \
       libqt5opengl5-dev \
       qtwebengine5-dev \
       libqt5multimedia5-plugins \
-      qt5-default
+      qtbase5-dev
+```
+
+Install liblo for OSC support:
+
+```
+sudo apt-get install -y \
+      liblo-dev liblo-tools
 ```
 
 Install GStreamer 1.0 libraries and plugins:
